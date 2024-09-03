@@ -1,0 +1,297 @@
+body {
+    background-image: url(../Images/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.items {
+    width: 85%;
+    height: 700px;
+    color: aliceblue;
+    margin-left: 175px;
+    margin-top: 150px;
+    overflow: auto;
+    border-radius: 25px;
+    padding-bottom: 20px;
+}
+
+.items:hover {
+    background-color: rgba(146, 146, 146, 0.553);
+    transition: .7s;
+}
+
+.item1 {
+    width: 400px;
+    height: 600px;
+    border: 1px solid white;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.479) 0px 2px 1px -1px, rgba(255, 255, 255, 0.461) 0px 1px 1px 0px, rgba(255, 255, 255, 0.516) 0px 1px 3px 0px;
+    float: left;
+    transition: .7s;
+}
+
+.item1:hover {
+    background-color: rgba(15, 15, 27, 0.553);
+}
+
+.item1 img {
+    width: 200px;
+    height: 250px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.item1 img:hover {
+    background-color: #fcfcfc98;
+    transition: .5s;
+}
+
+.item1 h2 {
+    text-align: center;
+}
+
+.item1 h4,
+p {
+    margin-left: 10px;
+}
+
+.details {
+    width: 80%;
+    height: 100px;
+    overflow: auto;
+    padding-left: 30px;
+    margin-top: 60px;
+}
+
+.btn1 {
+    float: right;
+    margin-top: 15px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(32, 38, 60);
+    color: #fff;
+    border: none;
+    transition: .5s;
+}
+
+.btn1:hover {
+    background-color: rgb(73, 86, 134);
+    transition: .7s;
+}
+
+.price {
+    float: left;
+    font-weight: 800;
+    margin-top: 35px;
+}
+
+.item2 {
+    width: 400px;
+    height: 600px;
+    border: 1px solid white;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.479) 0px 2px 1px -1px, rgba(255, 255, 255, 0.461) 0px 1px 1px 0px, rgba(255, 255, 255, 0.516) 0px 1px 3px 0px;
+    float: left;
+}
+
+.item2:hover {
+    background-color: rgba(15, 15, 27, 0.553);
+    transition: .7s;
+}
+
+.item2 img {
+    width: 200px;
+    height: 250px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.item2 img:hover {
+    background-color: #fcfcfc98;
+    transition: .5s;
+}
+
+
+
+.item2 h2 {
+    text-align: center;
+}
+
+.item2 h4,
+p {
+    margin-left: 10px;
+}
+
+.item3 {
+    width: 400px;
+    height: 600px;
+    border: 1px solid white;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.479) 0px 2px 1px -1px, rgba(255, 255, 255, 0.461) 0px 1px 1px 0px, rgba(255, 255, 255, 0.516) 0px 1px 3px 0px;
+    float: left;
+}
+
+.item3:hover{
+    background-color: rgba(15, 15, 27, 0.553);
+    transition: .7s;
+}
+
+.item3 img {
+    width: 200px;
+    height: 250px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.item3 img:hover {
+    background-color: #fcfcfc98;
+    transition: .5s;
+
+}
+
+.item3 h2 {
+    text-align: center;
+}
+
+.item3 h4,
+p {
+    margin-left: 10px;
+}
+
+.parent {
+    height: 800px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+
+.card1 {
+    width: 50px;
+    height: 800px;
+    background-image: url(../Images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 8px;
+    transition: .1s;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    float: left;
+}
+
+.card1:hover {
+    width: 600px;
+    transition: .6s;
+}
+
+.card2 {
+    width: 50px;
+    height: 800px;
+    background-image: url(../Images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    transition: .1s;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    float: left;
+}
+
+.card2:hover {
+    width: 600px;
+    transition: .6s;
+}
+
+.card3 {
+    width: 50px;
+    height: 800px;
+    background-image: url(../Images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    transition: .1s;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    float: left;
+}
+
+.card3:hover {
+    width: 600px;
+    transition: .6s;
+}
+
+.card6 {
+    width: 50px;
+    height: 800px;
+    background-image: url(../Images/6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    transition: .1s;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 50px;
+    float: right;
+}
+
+.card6:hover {
+    width: 600px;
+    transition: .6s;
+}
+
+.card5 {
+    width: 50px;
+    height: 800px;
+    background-image: url(../Images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    transition: .1s;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 50px;
+    float: right;
+}
+
+.card5:hover {
+    width: 600px;
+    transition: .6s;
+}
+
+.card4 {
+    width: 50px;
+    height: 800px;
+    background-image: url(../Images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    transition: .1s;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+    float: right;
+}
+
+.card4:hover {
+    width: 600px;
+    transition: .6s;
+}
